@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Quiz!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header header-flex">
+            <h2 id="highscore-panel">View Highscore</h2>
+            <h2 id="timer"></h2>
+        </div>
+    </header>
+    <main class="container">
+        <h1 id="main-text-container" class="main-text">Coding Quiz Challenge</h1>
+        <div id="secondary-text">Try to answer the following code-related questions within the time limit. Keep in mind that the incorrect answers will penalize your scoretime by ten seconds.</div>
+        <div id="answer-buttons" class="btn-container align-left hide">
+            <button id="btn-1">answer 1</button>
+            <button id="btn-2">answer 2</button>
+            <button id="btn-3">answer 3</button>
+            <button id="btn-4">answer 4</button>
+        </div>
+        <div id="hs-container" class="hs-box align-left hide">
+            <ol>
+            </ol>
+        </div>
+        <div id="submit-container" class="submit-flex align-left hide">
+            <p>Enter Initials:</p>
+            <input type="text" id="initials-submit">
+            <button id="submit-btn">Submit</button>
+        </div>
+        <div>
+            <h3 id="answer-text-container" class="answer-text align-left hide">Correct-Wrong Declaration</h3>
+        </div>
+        <div id="foot-container">
+            <button id="back-btn" class="foot-bt hide">Go Back</button>
+            <button id="start-btn" class="foot-btn">Start Quiz</button>
+            <button id="clear-hs-btn" class="foot-btn hide">Clear Highscores</button>
+        </div>
+    </main>
+    <div></div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
