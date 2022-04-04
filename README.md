@@ -69,7 +69,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![JavaScript Quiz Screen Shot][product-screenshot]](./images/JS-Quiz-.png)
+![JavaScript Quiz Screen Shot](./images/JS-Quiz-.png)
 
 This javascript quiz project was created as a coding assessment, trying to achieve both functionality and great looks! 
 
