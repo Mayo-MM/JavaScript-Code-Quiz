@@ -1,0 +1,112 @@
+/* Setting the color variables for the whole page */
+:root {
+    --dark: #660066;
+    --light: #efbbff;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    width: 95%;
+}
+
+.header-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Change the desing to make it look as a clickable object */
+#highscore-panel:hover {
+    color: var(--dark);
+    cursor: pointer;
+}
+
+.container {
+    /* Element design */
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+    font-size: 18px;
+    text-align: center;
+    /* Define a max width... */
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 40px 40px;
+    /* ...and make it occupy it when there's enough space to do so */
+    width: 100%;
+}
+
+.main-text {
+    margin: 1rem 0;
+}
+
+.align-left {
+    text-align: start;
+}
+
+.btn-container{
+    display: grid;
+    grid-template-columns: max-content;
+    gap: .5rem;
+    margin: 1rem 0;
+}
+
+button {
+    font-size: 85%;
+    background-color: var(--dark);
+    color: var(--light);
+    border-radius: 5px;
+    padding: 1px 5px;
+    border: 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+.submit-flex {
+    display: flex;
+    flex-direction:row;
+    gap: .2rem;
+    margin: 1rem 0;
+}
+
+.answer-text {
+      color: #b9bbbd;
+}
+
+.answer-text::before {
+    /* Give the footer a separation line at it's top */
+    content: " ";
+    display: block;
+    width: 100%;
+    background: #e7e9eb;
+    height: 4px;
+}
+.hs-box {
+    margin: 0 7rem 0 1rem;
+    padding: 1rem;
+}
+
+li {
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+.foot-btn {
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+.hide {
+    display: none;
+}

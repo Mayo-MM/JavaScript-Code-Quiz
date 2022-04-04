@@ -1,0 +1,52 @@
+/* Intuitive box-sizing model with no default margins */
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Allow percentages in the application */
+html {
+  height: 100%;
+}
+
+/* Accessible line height */
+/* Improve text rendering */
+body {
+  min-height: 100%;
+  line-height: 1.5;
+  -webkit-font-smothing: antialiased;
+}
+
+/* Responsive font size, make the text 100% of default */
+/* Avoid unnecesary overflows */
+p,​
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  overflow-wrap: break-word;
+}
+
+/* Remove built-in typography styles */
+​input,
+select,
+option,
+optgroup,
+textarea,
+button,
+pre {
+  font-size: 100%;
+  font-family: inherit;
+}
+
+/* Remove built-in list styles */
+​ol,
+ul {
+  list-style: none;
+}
